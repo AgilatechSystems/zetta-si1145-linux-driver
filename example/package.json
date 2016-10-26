@@ -1,0 +1,16 @@
+{
+  "name": "zetta-si1145-linux-example",
+  "version": "0.1.0",
+  "description": "an example for using the si1145 device",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Scott Erholm <scott@agilatech.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zetta": "*",
+    "@agilatech/si1145": "*"
+  }
+}

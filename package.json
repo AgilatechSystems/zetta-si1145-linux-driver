@@ -1,0 +1,28 @@
+{
+  "name": "@agilatech/zetta-si1145-linux-driver",
+  "version": "0.8.0",
+  "description": "Zetta SI1145 driver for Linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "zetta-device": "*",
+    "zetta-scout": "*",
+    "@agilatech/si1145": "*"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "zetta",
+    "sensor",
+    "IR",
+    "infrared",
+    "visible light",
+    "UV index",
+    "beaglebone",
+    "raspberry pi"
+  ]
+}
